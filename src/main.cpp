@@ -79,9 +79,6 @@ int main(int argc, char **argv)
             std::cerr << "No source directory for argument --source." << std::endl;
             exit(EXIT_FAILURE);
           }
-        } else if ( strcmp(argv[argii], "--no-color") == 0 ) {
-          color = false;
-          argii+=1;
         } else if ( strcmp(argv[argii], "--sync") == 0 ) {
           std::cout << "Enabling target synchronisation" << std::endl;
           sync = true;
