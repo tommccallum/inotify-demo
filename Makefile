@@ -24,6 +24,6 @@ watcher: $(OBJ)
 .PHONY: clean all
 
 clean:
-	rm -f $(ODIR) *~ $(INCDIR)/*~ 
+	rm -rf $(ODIR) *~ $(INCDIR)/*~ watcher
 
 all: watcher 

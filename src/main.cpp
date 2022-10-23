@@ -105,12 +105,6 @@ int main(int argc, char **argv)
         }
       }
     } else {
-      File f(argv[argii]);
-      
-      // std::cout << "Basename: " << f.basename() << std::endl;
-      // std::cout << "Dirname: " << f.dirname() << std::endl;
-      // std::cout << "Abspath: " << f.abspath() << std::endl;
-
       watchList.emplace_back( argv[argii] );
       argii++;
     }
